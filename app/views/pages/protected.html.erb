@@ -1,1 +1,5 @@
 <%= react_component('AuthenticatedApp') %>
+
+<%= link_to "View Your Apartments", apartments_path%>
+
+<%= link_to "Logout", destroy_user_session_path, :method => 'delete' %>

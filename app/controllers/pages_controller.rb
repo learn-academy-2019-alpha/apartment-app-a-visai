@@ -6,5 +6,5 @@ class PagesController < ApplicationController
 
   def protected
   end
-  
+
 end
